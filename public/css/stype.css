@@ -1,0 +1,230 @@
+.login-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.form-group input[type="checkbox"] {
+    width: auto;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+button {
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.error {
+    color: #721c24;
+    background-color: #f8d7da;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 4px;
+}
+
+.success {
+    color: #155724;
+    background-color: #d4edda;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 4px;
+}
+
+/* Add to existing style.css */
+.main-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.main-container a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.main-container a:hover {
+    text-decoration: underline;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f7fa;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+/* Table Styles */
+#job-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#job-table th, #job-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+#job-table th {
+    background-color: #007bff;
+    color: white;
+    font-weight: bold;
+}
+
+#job-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+#job-table tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Form Styles */
+form {
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+form input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    flex: 1;
+    min-width: 200px;
+}
+
+form input[type="text"]:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: #218838;
+}
+
+#job-list .error {
+    color: black;
+    background-color: #ffdddd;
+    padding: 15px;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    form {
+        flex-direction: column;
+    }
+    form input[type="text"] {
+        min-width: 100%;
+    }
+}
+
+/* Center the search box */
+.search-box {
+    display: flex;
+    align-items: center;
+    background: #f1f1f1;
+    border-radius: 25px;
+    padding: 5px;
+    width: 500px;
+    border: 2px solid #ccc;
+    transition: 0.3s;
+
+    /* Move to right */
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+
+/* Search input field */
+.search-input {
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 16px;
+    padding: 8px;
+    width: 100%;
+    border-radius: 25px;
+}
+
+/* Search button */
+.search-button {
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    font-size: 16px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* Hover effects */
+.search-box:hover {
+    border-color: #007bff;
+}
+.search-button:hover {
+    background: #0056b3;
+}
+
+/* Responsive */
+@media (max-width: 400px) {
+    .search-box {
+        width: 100%;
+    }
+}
+
+.container {
+    display: flex;
+    justify-content: flex-end; /* Moves to the right */
+    padding: 20px;
+}

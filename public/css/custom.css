@@ -1,0 +1,760 @@
+* {
+    font-family: sans-serif;
+}
+
+.TabRTopActive, .TabRBottomActive, td.thc, .ButtonTopNormal, .ButtonBottomNormal, .ButtonTopActive, .ButtonBottomActive, .TabRTop, .TabRBottom, .verticalBar {
+    visibility: hidden;
+    display: flex;
+}
+
+.TabRTop {
+    visibility: hidden;
+}
+
+.TabNormal, .TabActive {
+    border: 1px solid #ddd;
+    border-right: none;
+    background: #fff;
+    padding: 8px;
+    margin-right: -2px;
+}
+
+.TabNormal:last-child {
+    border-right: 1px solid #ddd;
+}
+
+.TabActive {
+    background-color: #444;
+    color: #eee;
+}
+
+.TabNormal:hover {
+    background-color: #eee;
+}
+
+.commonLogoPage img {
+    margin-top: 10px;
+    margin-left: -5px;
+}
+
+@keyframes photoBrowserIn {
+    0% {
+        transform: translate3d(0, 0, 0) scale(.5);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translate3d(0, 0, 0) scale(1);
+        opacity: 1;
+    }
+}
+
+#textSearch  {
+    height: 28px !important;
+    /*padding: 3px;*/
+    border-radius: 3px;
+    border: 1px solid #ddd;
+    color: #333;
+}
+
+#txtSearch, #NoUpdate_txtSearch  {
+    height: 26px !important;
+    /*padding: 3px;*/
+    border-radius: 3px;
+    border: 1px solid #ddd;
+    color: #333;
+}
+
+#NoUpdate_txtSearch {
+    height: 26px !important;
+}
+
+.buttonNormal, .buttonActive {
+    height: 21px;
+    border-radius: 2px;
+    background-color: #e0e1e2;
+    border: 1px solid #ccc;
+    color: #555;
+    padding: 7px 10px 0;
+}
+.btnSearch {
+    text-align:center;
+    margin: 0 0 0 -5px;
+    padding:20px 20px 20px 20px;
+    background-color:#F5F5F5;
+    color:white;
+    background-image: url('../Image/Search.png');
+    background-size:30px;
+    background-repeat:no-repeat;
+    -webkit-border-top-right-radius: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+    -moz-border-radius-topright: 5px;
+    -moz-border-radius-bottomright: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border:none;
+    background-position: center;
+}
+.btnSearchCSA {
+    text-align:center;
+    margin: 0 0 0 -5px;
+    padding:16px 16px 16px 16px;
+    background-color:#F5F5F5;
+    color:white;
+    background-image: url('../Image/SearchCSA.png');
+    background-size:30px;
+    background-repeat:no-repeat;
+    -webkit-border-top-right-radius: 3px;
+    -webkit-border-bottom-right-radius: 3px;
+    -moz-border-radius-topright: 3px;
+    -moz-border-radius-bottomright: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border:none;
+    background-position: center;
+}
+.buttonNormal:hover, .buttonActive:hover {
+    background-color: #ddd;
+}
+
+.buttonActive {
+    font-size: 13px;
+}
+
+.buttonNormal:hover {
+    background-color: #ccc;
+    color: #333;
+}
+
+#divShowAllDocPic {
+    background: #333;
+    padding-top: 10px;
+    animation: photoBrowserIn .4s forwards;
+}
+
+#divShowAllDocPic img {
+    border: solid 1px #eee !important;
+    margin: 2px 0;
+}
+
+#divShowAllDocPic input[type=button] {
+    padding: 7px;
+    width: 50px;
+    background: #eee;
+    border: 1px solid #333;
+    color: #333;
+    cursor: pointer;
+}
+
+#MainPage table:nth-of-type(1) table {
+    border: none;
+}
+
+#MainPage table:nth-of-type(1) td {
+    color: transparent;
+    padding: 0 !important;
+    padding-top: 14px !important;
+    text-align: right;
+}
+
+#MainPage table:nth-of-type(1) td td {
+    padding-top: 0 !important;
+}
+
+#MainPage table:nth-of-type(1) td .TopLink {
+    cursor: pointer;
+    background: #fff;
+    color: #444;
+    padding: 9px !important;
+    padding-bottom: 5px !important;
+    margin-left: -10px;
+}
+
+
+#MainPage table:nth-of-type(1) td .TopLink a {
+    text-decoration: none !important;
+    font-size: 14px !important;
+    color: #333;
+}
+
+#MainPage table:nth-of-type(1) td .TopLink:first-child {
+    border-bottom: 3px solid #444;
+}
+
+#MainPage table:nth-of-type(1) td .TopLink:last-child {
+    padding-right: 10px !important;
+}
+
+#MainPage table:nth-of-type(1) td .TopLink:hover {
+    border-bottom: 3px solid #444;
+}
+
+#MainPage table:nth-of-type(2) td:first-child {
+    padding-left: 3px !important;
+}
+
+#MainPage table:nth-of-type(2) td:first-child td {
+    padding-right: 1px !important;
+}
+
+#MainPage table:nth-of-type(2) td:nth-of-type(2) {
+    padding-right: 5px !important;
+}
+
+#MainPage table:nth-of-type(2) td:nth-of-type(2) td {
+    padding: 0 !important;
+}
+
+#MainPage table.MainDiv_JobTable {
+    width: 100%;
+    margin-left: -5px;
+    margin-right: -5px;
+    margin-top: 2px;
+    border: 1px solid #ddd;
+    border-collapse: collapse;
+
+}
+
+#MainPage table.MainDiv_JobTable thead tr td {
+    padding-top:2px;
+    padding-bottom:2px;
+    border-right: 1px solid #ddd;
+    background-color: #444;
+    color: white !important;
+}
+
+#MainPage table.MainDiv_JobTable thead tr td a {
+    color: #eee !important;
+}
+
+#MainPage table.MainDiv_JobTable thead tr td:nth-of-type(2) {
+    border-right: none;
+}
+
+#MainPage table.MainDiv_JobTable tbody tr td {
+    padding: 6px;
+}
+
+#MainPage table.MainDiv_JobTable tbody tr:hover {
+    background-color: #f9fafb;
+}
+
+#MainPage table.MainDiv_JobTable tfoot tr td {
+    padding: 8px;
+    background-color: #f9fafb;
+}
+
+#frmMain > .MainJobTable {
+    margin-top: 5px;
+    margin-left: -5px;
+    width: 100.5%;
+}
+
+#frmMain #StartDetailAssessmentDate, #frmMain #txtSearch {
+    box-sizing: border-box;
+    height: 26px !important;
+    font-size: 13px;
+    padding-left: 5px !important;
+    color: #333;
+    border: 1px solid #ccc;
+    border-radius: 0;
+}
+
+#frmMain .MainJobTable tr.JobTableTitleRow {
+    background-color: #444;
+}
+
+#frmMain .MainJobTable tr.JobTableTitleRow td {
+    padding: 8px;
+}
+
+#frmMain .MainJobTable tr.JobTableTitleRow td * {
+    color: #eee !important;
+}
+
+#frmMain .MainJobTable tr.JobTableItemRow2Quote, #frmMain .MainJobTable tr.JobTableItemRow, #frmMain .MainJobTable tr.JobTableItemRowTotalLoss, #frmMain .MainJobTable tr.JobTableItemRow1Quote {
+    height: 25px;
+}
+
+#frmMain .MainJobTable tr.JobTableItemRow2Quote td, #frmMain .MainJobTable tr.JobTableItemRow td, #frmMain .MainJobTable tr.JobTableItemRowTotalLoss td, #frmMain .MainJobTable tr.JobTableItemRow1Quote td {
+    padding: 5px 0;
+    padding-left: 6px !important;
+}
+
+#frmMain .MainJobTable tr.JobTableFooterRow {
+    background-color: #f9fafb;
+}
+
+#frmMain .MainJobTable tr.JobTableFooterRow td {
+    padding: 8px;
+    border-top: 1px solid #ddd;
+}
+
+#frmMain .MainJobTable td {
+    border-bottom: #ddd 1px solid;
+    border-left: #ddd 1px solid;
+}
+
+#frmMain .MainJobTable .JobTableItemRow1Quote {
+    background-color: rgba(255,255,145,0.48);
+}
+
+#frmMain .MainJobTable .JobTableItemRow2Quote {
+    background-color: rgba(204,255,204,0.8);
+}
+
+#frmMain select[name=calendar] {
+    height: 30px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding-left: 5px;
+}
+
+#frmMain select[name=calendar] option {
+    height: 25px;
+}
+
+#frmDetail table:nth-of-type(1) table, form[name=frmView] table:nth-of-type(1) table, #frmInvoiceSearch table:nth-of-type(1) table {
+    border: none;
+}
+
+#frmDetail table:nth-of-type(1) td:first-child, form[name=frmView] table:nth-of-type(1) td:first-child, #frmInvoiceSearch table:nth-of-type(1) td:first-child {
+    /*color: transparent;*/
+    /*padding-top: -10px !important;*/
+}
+
+#frmDetail table:nth-of-type(1) td:first-child td, form[name=frmView] table:nth-of-type(1) td:first-child td, #frmInvoiceSearch table:nth-of-type(1) td:first-child td {
+    color: #000;
+    padding-top: 3px !important;
+}
+
+#frmDetail table:nth-of-type(1) td:first-child .TopLink, form[name=frmView] table:nth-of-type(1) td:first-child .TopLink, #frmInvoiceSearch table:nth-of-type(1) td:first-child .TopLink {
+    cursor: pointer;
+    background: #fff;
+    color: #444;
+    padding: 9px !important;
+    padding-bottom: 5px !important;
+    margin-left: -10px;
+}
+
+#frmDetail table:nth-of-type(1) td:first-child .TopLink a, form[name=frmView] table:nth-of-type(1) td:first-child .TopLink a, #frmInvoiceSearch table:nth-of-type(1) td:first-child .TopLink a {
+    text-decoration: none !important;
+    font-size: 14px !important;
+    color: #333;
+}
+
+#frmDetail table:nth-of-type(1) td:first-child .TopLink:first-child, form[name=frmView] table:nth-of-type(1) td:first-child .TopLink:first-child, #frmInvoiceSearch table:nth-of-type(1) td:first-child .TopLink:first-child {
+    border-bottom: 3px solid #444;
+}
+
+#frmDetail table:nth-of-type(1) td:first-child .TopLink:last-child, form[name=frmView] table:nth-of-type(1) td:first-child .TopLink:last-child, #frmInvoiceSearch table:nth-of-type(1) td:first-child .TopLink:last-child {
+    padding-right: 10px !important;
+}
+
+#frmDetail table:nth-of-type(1) td:first-child .TopLink:hover, form[name=frmView] table:nth-of-type(1) td:first-child .TopLink:hover, #frmInvoiceSearch table:nth-of-type(1) td:first-child .TopLink:hover {
+    border-bottom: 3px solid #444;
+}
+
+#frmDetail table:nth-of-type(1) td, form[name=frmView] table:nth-of-type(1) td, #frmInvoiceSearch table:nth-of-type(1) td {
+    padding-right: 0 !important;
+}
+
+#frmDetail table:nth-of-type(2) td:first-child, form[name=frmView] table:nth-of-type(2) td:first-child, #frmInvoiceSearch table:nth-of-type(2) td:first-child {
+    padding-left: 3px !important;
+}
+
+#frmDetail table:nth-of-type(2) td:first-child td, form[name=frmView] table:nth-of-type(2) td:first-child td, #frmInvoiceSearch table:nth-of-type(2) td:first-child td {
+    padding-right: 1px !important;
+}
+
+#frmDetail table:nth-of-type(2) td:nth-of-type(2), form[name=frmView] table:nth-of-type(2) td:nth-of-type(2), #frmInvoiceSearch table:nth-of-type(2) td:nth-of-type(2) {
+    padding-right: 5px !important;
+}
+
+#frmDetail table:nth-of-type(2) td:nth-of-type(2) td, form[name=frmView] table:nth-of-type(2) td:nth-of-type(2) td, #frmInvoiceSearch table:nth-of-type(2) td:nth-of-type(2) td {
+    padding: 0 !important;
+}
+
+#frmDetail table:nth-of-type(3), form[name=frmView] table:nth-of-type(3), #frmInvoiceSearch table:nth-of-type(3) {
+    width: 100.5%;
+    margin-left: -7px;
+    border: 1px solid #ddd;
+}
+
+#frmDetail table:nth-of-type(3) tr.MainDiv_JobTableTitleRow, form[name=frmView] table:nth-of-type(3) tr.MainDiv_JobTableTitleRow, #frmInvoiceSearch table:nth-of-type(3) tr.MainDiv_JobTableTitleRow {
+    background-color: #ddd;
+    height: 35px;
+}
+
+#frmDetail table:nth-of-type(3) tr.MainDiv_JobTableTitleRow .divbtn, form[name=frmView] table:nth-of-type(3) tr.MainDiv_JobTableTitleRow .divbtn, #frmInvoiceSearch table:nth-of-type(3) tr.MainDiv_JobTableTitleRow .divbtn {
+    margin-top: 3px;
+    height: 29px;
+    background-color: none !important;
+    padding: 0 3px 0 0;
+}
+
+#frmDetail table:nth-of-type(3) tr.MainDiv_JobTableTitleRow .divbtn .btn, form[name=frmView] table:nth-of-type(3) tr.MainDiv_JobTableTitleRow .divbtn .btn, #frmInvoiceSearch table:nth-of-type(3) tr.MainDiv_JobTableTitleRow .divbtn .btn {
+    box-shadow: 0 0 0 0 rgba(34,36,38,0.15) inset !important;
+    padding: 7px 0 !important;
+    padding-left: 3px !important;
+    padding-right: 3px !important;
+    background-color: #444 !important;
+    color: #fff !important;
+    text-shadow: none;
+    border: 1px solid #555 !important;
+    border-radius: 2px !important;
+    height: auto !important;
+}
+
+#frmDetail table:nth-of-type(3) tr.MainDiv_JobTableTitleRow .divbtn .btn:hover, form[name=frmView] table:nth-of-type(3) tr.MainDiv_JobTableTitleRow .divbtn .btn:hover, #frmInvoiceSearch table:nth-of-type(3) tr.MainDiv_JobTableTitleRow .divbtn .btn:hover {
+    opacity: .8;
+}
+
+#frmDetail table:nth-of-type(3) tr.MainDiv_JobTableTitleRow .divbtn b.tbtn, form[name=frmView] table:nth-of-type(3) tr.MainDiv_JobTableTitleRow .divbtn b.tbtn, #frmInvoiceSearch table:nth-of-type(3) tr.MainDiv_JobTableTitleRow .divbtn b.tbtn {
+    visibility: hidden;
+}
+
+#frmDetail table:nth-of-type(3) tr.MainDiv_JobTableTitleRow select, form[name=frmView] table:nth-of-type(3) tr.MainDiv_JobTableTitleRow select, #frmInvoiceSearch table:nth-of-type(3) tr.MainDiv_JobTableTitleRow select {
+    height: 27px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding-left: 5px;
+}
+
+#frmDetail table:nth-of-type(3) tr.MainDiv_JobTableTitleRow select option, form[name=frmView] table:nth-of-type(3) tr.MainDiv_JobTableTitleRow select option, #frmInvoiceSearch table:nth-of-type(3) tr.MainDiv_JobTableTitleRow select option {
+    height: 25px;
+}
+
+#frmDetail table:nth-of-type(3) tr.MainDiv_JobTableTitleRow b, form[name=frmView] table:nth-of-type(3) tr.MainDiv_JobTableTitleRow b, #frmInvoiceSearch table:nth-of-type(3) tr.MainDiv_JobTableTitleRow b {
+    display: none;
+}
+
+#frmDetail table:nth-of-type(3) tr.MainDiv_JobTableTitleRow td, form[name=frmView] table:nth-of-type(3) tr.MainDiv_JobTableTitleRow td, #frmInvoiceSearch table:nth-of-type(3) tr.MainDiv_JobTableTitleRow td {
+    padding-left: 0 !important;
+    vertical-align: middle;
+}
+
+#frmDetail table:nth-of-type(3) tr.MainDiv_JobTableTitleRow td:last-child, form[name=frmView] table:nth-of-type(3) tr.MainDiv_JobTableTitleRow td:last-child, #frmInvoiceSearch table:nth-of-type(3) tr.MainDiv_JobTableTitleRow td:last-child {
+    color: transparent;
+}
+
+#frmDetail table:nth-of-type(3) tr.MainDiv_JobTableTitleRow td:last-child .ReportLink, form[name=frmView] table:nth-of-type(3) tr.MainDiv_JobTableTitleRow td:last-child .ReportLink, #frmInvoiceSearch table:nth-of-type(3) tr.MainDiv_JobTableTitleRow td:last-child .ReportLink {
+    padding: 9px 5px 9px 5px;
+}
+
+#frmDetail table:nth-of-type(3) tr.MainDiv_JobTableTitleRow td:last-child .ReportLink:hover, form[name=frmView] table:nth-of-type(3) tr.MainDiv_JobTableTitleRow td:last-child .ReportLink:hover, #frmInvoiceSearch table:nth-of-type(3) tr.MainDiv_JobTableTitleRow td:last-child .ReportLink:hover {
+    background-color: #444;
+    color: #eee;
+}
+
+#frmDetail table:nth-of-type(3) tr.MainDiv_JobTableTitleRow input[type=checkbox], form[name=frmView] table:nth-of-type(3) tr.MainDiv_JobTableTitleRow input[type=checkbox], #frmInvoiceSearch table:nth-of-type(3) tr.MainDiv_JobTableTitleRow input[type=checkbox] {
+    margin-top: 7px;
+}
+
+#frmDetail table:nth-of-type(3) input#NoUpdate_FollowUp, form[name=frmView] table:nth-of-type(3) input#NoUpdate_FollowUp, #frmInvoiceSearch table:nth-of-type(3) input#NoUpdate_FollowUp {
+    margin-top: -10px;
+    width: 108px !important;
+}
+
+#frmDetail table:nth-of-type(3) img, form[name=frmView] table:nth-of-type(3) img, #frmInvoiceSearch table:nth-of-type(3) img {
+    /*margin-top: 8px; photos detail, view have more gaps*/
+}
+
+#frmDetail tr.detailQuoteCSS td, form[name=frmView] tr.detailQuoteCSS td, #frmInvoiceSearch tr.detailQuoteCSS td {
+    color: #fff !important;
+}
+
+#frmDetail tr.MainDiv_JobTableFooterRow, form[name=frmView] tr.MainDiv_JobTableFooterRow, #frmInvoiceSearch tr.MainDiv_JobTableFooterRow {
+    background-color: #f9fafb;
+}
+
+#frmDetail tr.MainDiv_JobTableFooterRow td, form[name=frmView] tr.MainDiv_JobTableFooterRow td, #frmInvoiceSearch tr.MainDiv_JobTableFooterRow td {
+    padding: 8px;
+    border-top: 1px solid #ddd;
+}
+
+#frmDetail img.Detail_PIC, form[name=frmView] img.Detail_PIC, #frmInvoiceSearch img.Detail_PIC {
+    border: 1px solid #bbb !important;
+}
+
+#frmDetail .Detail_Div_PIC_Total, form[name=frmView] .Detail_Div_PIC_Total, #frmInvoiceSearch .Detail_Div_PIC_Total {
+    border-top: 1px solid #bbb;
+    border-left: 1px solid #bbb;
+}
+
+#frmDetail .ViewQuoteRequestItem, form[name=frmView] .ViewQuoteRequestItem, #frmInvoiceSearch .ViewQuoteRequestItem, #frmDetail .ViewNoteItem, form[name=frmView] .ViewNoteItem, #frmInvoiceSearch .ViewNoteItem {
+    border: 1px solid #bbb !important;
+}
+
+#frmDetail .ViewNoteItemSelected, form[name=frmView] .ViewNoteItemSelected, #frmInvoiceSearch .ViewNoteItemSelected, #frmDetail .ViewQuoteRequestItemSelected, form[name=frmView] .ViewQuoteRequestItemSelected, #frmInvoiceSearch .ViewQuoteRequestItemSelected {
+    border: solid 1px red;
+}
+
+form[name=frmView] tbody table[width='100%'] table {
+    max-width: 650px !important;
+}
+
+form[name=frmView] #EmailDetailDiv textarea {
+    width: 95% !important;
+}
+
+#frmInvoice table:nth-of-type(1) td:first-child {
+    padding-left: 3px !important;
+}
+
+#frmInvoice table:nth-of-type(1) td:first-child td {
+    padding-right: 1px !important;
+}
+
+#frmInvoice table:nth-of-type(1) td:nth-of-type(2) {
+    padding-right: 5px !important;
+}
+
+#frmInvoice table:nth-of-type(1) td:nth-of-type(2) td {
+    padding: 0 !important;
+}
+
+#frmInvoice table:nth-of-type(2) {
+    width: 100.5%;
+    margin-left: -7px;
+    border: 1px solid #ddd;
+}
+
+#frmInvoice table:nth-of-type(2) tr.MainDiv_JobTableTitleRow {
+    background-color: #ddd;
+    height: 35px;
+}
+
+#frmInvoice table:nth-of-type(2) tr.MainDiv_JobTableTitleRow table {
+    height: 35px;
+    color: #333;
+}
+
+#frmInvoice table:nth-of-type(2) tr.MainDiv_JobTableTitleRow b {
+    display: none;
+}
+
+#frmInvoice table:nth-of-type(2) tr.MainDiv_JobTableTitleRow td {
+    padding-left: 0 !important;
+    vertical-align: middle;
+}
+
+#frmInvoice table:nth-of-type(2) tr.MainDiv_JobTableTitleRow td:nth-child(3) {
+    width: 120px !important;
+}
+
+#frmInvoice table:nth-of-type(2) tr.MainDiv_JobTableTitleRow td:last-child {
+    color: transparent;
+    width: 700px !important;
+}
+
+#frmInvoice table:nth-of-type(2) tr.MainDiv_JobTableTitleRow td:last-child .ReportLink {
+    padding: 9px 5px 9px 5px;
+}
+
+#frmInvoice table:nth-of-type(2) tr.MainDiv_JobTableTitleRow td:last-child .ReportLink:hover {
+    background-color: #444;
+    color: #eee;
+}
+
+#frmInvoice table:nth-of-type(2) tr.MainDiv_JobTableTitleRow input[type=checkbox] {
+    margin-top: 7px;
+}
+
+#frmInvoice table:nth-of-type(2) input#NoUpdate_FollowUp {
+    margin-top: -10px;
+    width: 108px !important;
+}
+
+#frmInvoice table:nth-of-type(2) img {
+    margin-top: 8px;
+}
+
+#frmInvoice table:nth-of-type(2) td {
+    padding: 0 !important;
+}
+
+#frmInvoice table:nth-of-type(2) .tblInvoice {
+    background-color: #eee;
+    box-shadow: 0 0 0 1px #555;
+}
+
+#frmInvoice table:nth-of-type(2) .tblInvoice td {
+    border: 0 !important;
+    padding: 4px !important;
+}
+
+#frmInvoice table:nth-of-type(2) .tblInvoice tr:first-child {
+    background-color: #555;
+}
+
+#frmInvoice table:nth-of-type(2) .tblInvoice tr:first-child td {
+    color: #eee;
+    font-size: 13px;
+}
+
+#frmInvoice table:nth-of-type(2) table:nth-of-type(2) {
+    color: #333;
+    background-color: #eee !important;
+    margin-left: 1px;
+    border: 1px solid #ddd;
+    padding: 10px 5px 0 0;
+}
+
+#frmInvoice table:nth-of-type(2) table:nth-of-type(2) tr {
+    vertical-align: baseline;
+    text-align: left;
+}
+
+#frmInvoice table:nth-of-type(2) table:nth-of-type(2) tr td {
+    padding: 3px !important;
+}
+
+#frmInvoice tfoot tr.MainDiv_JobTableFooterRow {
+    background-color: #f9fafb;
+}
+
+#frmInvoice tfoot tr.MainDiv_JobTableFooterRow td {
+    padding: 8px !important;
+    border-top: 1px solid #ddd;
+}
+
+#frmInvoice input:not([type=radio]):not([type=checkbox]) {
+    box-sizing: border-box;
+    height: 27px;
+    font-size: 13px;
+    padding-left: 5px !important;
+    color: #333;
+    border: 1px solid #ccc;
+}
+
+#frmInvoice input[type=radio]:hover {
+    cursor: pointer;
+}
+
+#frmInvoice select {
+    height: 27px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding-left: 5px;
+}
+
+#frmInvoice select option {
+    height: 25px;
+}
+
+#frmInvoice textarea {
+    width: 98% !important;
+    border: 1px solid #ccc;
+    padding: 5px;
+    line-height: 25px;
+}
+
+#frmInvoice textarea#CommentHistory {
+    visibility: hidden;
+}
+
+/* Nav CSS */
+
+
+
+
+.txtSearch {
+    width:300px;
+    height:20px;
+    background-color:#F5F5F5;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-bottomleft: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border:none;
+    padding:10px 15px 10px 15px;
+}
+
+select {
+    /*padding: 10px 5px 10px 5px;*/
+
+    width: 140px;
+    border: none;
+    box-shadow: none;
+    background-color: #F5F5F5;
+    background-image: none;
+    -webkit-appearance: none;
+}
+
+select:focus {
+    outline: none;
+}
+
+.TbGroupLink {
+    background: #F5F5F5;
+}
+
+.dropdown {
+    /*float: right;*/
+    position: relative;
+    /*display: inline-block;*/
+}
+.dropdown {
+    margin-right:5px;
+    margin-left:5px;
+}
+.dropdown-menu{ /*hide the menu*/
+    /*this style are just to position the menu*/
+    position:absolute;
+    top: 100%;
+    right:0px;
+    color:black;
+    background: #F5F5F5;
+    list-style:none;
+}
+
+#divDropDown.dropdown-menu {
+    padding-left: 7px;
+    background-color: rgb(245, 245, 245);
+    position: absolute;
+    width: 140px;
+    z-index: 9999;
+    top: 58px;
+    left: 2005px;
+}
+
+.open .dropdown-menu{
+    display: block;  /*show the menu when its parent has class "open"*/
+}
+
+a.nav-item {
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+}
+.dropdown-menu ul li {
+    list-style:none;
+
+}
+.dropdown-menu ul li a:hover {
+    color:white;
+    background-color:#444444;
+}
+.dropdown-menu ul li a {
+    text-decoration:none;
+    color:black;
+    display:block;
+}
+.dropdown-menu ul {
+
+    text-align:left;
+}
+
+
+.dropDown
+{
+    color:#000;font-family:Arial;font-size:15px;
+}
+
+.dropDown a:link{text-decoration: none; cursor:pointer;color:#000;font-family:Arial;font-size:15px;}
+.dropDown a:visited{text-decoration: none; cursor:pointer;color:#000;font-family:Arial;font-size:15px;}
+.dropDown a:hover{text-decoration: underline; cursor:pointer;color:#000;font-family:Arial;font-size:15px;}
+.dropDown a:active{text-decoration: none; cursor:pointer;color:#000;font-family:Arial;font-size:15px;}

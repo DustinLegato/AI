@@ -1,0 +1,25 @@
+# Place this file in the root directory: /claims-portal/.htaccess
+
+# Enable rewrite engine
+RewriteEngine On
+
+# Redirect all requests to index.php (Front Controller pattern)
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php [QSA,L]
+
+# Prevent directory listing
+Options -Indexes
+
+# Set security headers
+Header set X-Content-Type-Options "nosniff"
+Header set X-Frame-Options "DENY"
+Header set X-XSS-Protection "1; mode=block"
+
+# Set default charset
+AddDefaultCharset UTF-8
+
+# PHP settings (optional, adjust as needed)
+php_value upload_max_filesize 10M
+php_value post_max_size 10M
+php_value max_execution_time 30

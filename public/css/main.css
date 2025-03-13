@@ -1,0 +1,2083 @@
+/********************************************************
+	Auto Text 2014 02 20
+*********************************************************/
+.mouseOutHightLight
+{
+    background:#F0E68C;
+    color: #414042;
+    cursor:pointer;
+}
+/********************************************************
+	Auto Text End 2014 02 20
+*********************************************************/
+
+/************* Main Page **************/
+img
+{
+    cursor:pointer;
+}
+body
+{
+    font-family:arial;
+    font-size:14px;
+    color:#000000;
+}
+
+body table
+{
+    font-family:Arial;
+    font-size:14px;
+}
+
+
+a.aiLink:link{color:#414042;}
+a.aiLink:visited{color:#414042;}
+a.aiLink:hover{color:#414042;}
+a.aiLink:active{color:#414042;}
+
+a.aiLink2:link{color:#FFF;}
+a.aiLink2:visited{color:#FFF;}
+a.aiLink2:hover{color:#FFF;}
+a.aiLink2:active{color:#FFF;}
+
+a.NormalLink:link{cursor:pointer;color:#000;font-family:Arial;font-size:12px;}
+a.NormalLink:visited{cursor:pointer;color:#000;font-family:Arial;font-size:12px;}
+a.NormalLink:hover{cursor:pointer;color:#000;font-family:Arial;font-size:12px;}
+a.NormalLink:active{cursor:pointer;color:#000;font-family:Arial;font-size:12px;}
+
+
+
+
+.tlc
+{
+    empty-cells:show;
+    font-family:arial,sans-serif;
+    width:100%;
+    overflow:hidden;
+    table-layout:fixed;
+}
+
+.tlc td
+{
+    border-bottom:1px solid #BBBBBB;
+    empty-cells:show;
+    font-size:13px;
+    white-space:nowrap;
+    overflow:hidden;
+}
+
+.thc
+{
+    /*background:#F26722 none repeat scroll 0%;*/
+    background:#414042 none repeat scroll 0%;
+}
+
+.tlc a:link{color:#414042;text-decoration:none}
+.tlc a:visited{color:#414042;text-decoration:none}
+.tlc a:hover{color:#414042;text-decoration:none}
+.tlc a:active{color:#414042;text-decoration:none}
+
+.tdBottom
+{
+    color:red;
+    border-bottom:1px solid #F26722;
+}
+
+.RowContent
+{
+    background:#FFFFFF none repeat scroll 0%;
+    cursor:pointer;
+    height:22px;
+}
+
+.RowHeader td
+{
+    background:#003366 none repeat scroll 0%;
+    font-weight:bold;
+    color:#FFFFFF;
+    border-left:1px solid #003366;
+}
+
+.RowHeader a:link{color:#FFFFFF;text-decoration:none}
+.RowHeader a:visited{color:#FFFFFF;text-decoration:none}
+.RowHeader a:hover{color:#FFFFFF;text-decoration:none}
+.RowHeader a:active{color:#FFFFFF;text-decoration:none}
+
+.search td
+{
+    font-size:13px;
+    font-family:arial,sans-serif;
+    width:100%;
+    empty-cells:show;
+    white-space:nowrap;
+    overflow:hidden;
+    table-layout:fixed;
+    vertical-align:middle;
+}
+
+.search a:link{color:#414042;text-decoration:underline;cursor:pointer}
+.search a:visited{color:#414042;text-decoration:underline;cursor:pointer}
+.search	a:hover{color:#414042;text-decoration:underline;cursor:pointer}
+.search	a:active{color:#414042;text-decoration:underline;cursor:pointer}
+
+.modelinkOn
+{
+    background:#003366 none repeat scroll 0%;
+    color:#FFFFFF;
+    cursor:pointer;
+    font-family:Arial;
+    font-size:13px;
+    font-weight:bold;
+    padding:4px 5px 3px;
+}
+
+.modelinkOff
+{
+    background:#AED7FF none repeat scroll 0%;
+    color:#414042;
+    cursor:pointer;
+    font-family:Arial;
+    font-size:13px;
+    font-weight:normal;
+    padding:4px 5px 3px;
+}
+
+.modelinkOf
+{
+    background:#003366 none repeat scroll 0%;
+    color:#C0C0C0;
+    cursor:pointer;
+    font-family:Arial;
+    font-size:13px;
+    font-weight:normal;
+    padding:4px 5px 3px;
+}
+
+.divpad
+{
+    padding:0px 2px 0px;
+}
+
+
+
+/*Detail page*/
+.visibleDiv
+{
+    display:block;
+}
+
+.hiddenDiv
+{
+    display:none;
+}
+
+.SummaryHeader td
+{
+    background:#003366 none repeat scroll 0%;
+    color:#FFFFFF;
+    border-left:1px solid #003366;
+    border-bottom:1px solid #003366;
+}
+
+
+/*Draw border right of page*/
+.borderRight
+{
+    border-right: 1px solid #003366;
+    padding-left: 10px;
+    padding-right: 10px;
+    vertical-align:top;
+}
+
+.detailTableTextArea
+{
+    table-layout:fixed;
+    width:100%;
+}
+
+
+.divAddUnDelGroup
+{
+    margin-top:-128px;
+    margin-left:28px;
+}
+
+
+
+.DetailPhotoImage
+{
+    border-color:white;
+    width:310px;
+    height:243px;
+}
+
+.DetailDocumentImage
+{
+    border-color:black;
+    width:645px;
+    height:910px;
+}
+
+.Detail_TablePIC
+{
+    empty-cells:show;
+    font-family:arial,sans-serif;
+    width: 100%;
+    text-align:right
+}
+
+.ItemDivTotal
+{
+    margin-top:-30px;
+    margin-left:28px;
+    position:relative;
+    /*Note this CSS use for FF */
+}
+
+.InvoiceDataEntryDiv
+{
+    width:800px; /*TruongDV 2010 11 26 Changed 470, 800*/
+    position:absolute;
+}
+
+.InvoiceRowMatch
+{
+    font-size:12px;
+    cursor:pointer;
+    background-color:#E1FFE1; /*#CCFFCC*/
+}
+
+.InvoiceRowNotMatch
+{
+    font-size:12px;
+    cursor:pointer;
+    background-color:#FFE8E8;/*#FF3737*/
+}
+
+
+.Edit_tlc
+{
+    empty-cells:show;
+    font-family:arial,sans-serif;
+    width:100%;
+    overflow:hidden;
+    table-layout:fixed;
+}
+
+.Edit_tlc td
+{
+    font-family:arial,sans-serif;
+    font-size:12px;
+}
+
+.Edit_TableJobType
+{
+    border:0px;
+    empty-cells:show;
+    white-space:nowrap;
+    table-layout:fixed;
+    overflow:hidden;
+    width: 100%;
+    padding-left:10px;
+}
+
+.Edit_TableHeader
+{
+    border:0px;
+    empty-cells:show;
+    /*white-space:nowrap; Vehicle Accessories link missing on FF*/
+    table-layout:fixed;
+    overflow:hidden;
+    width: 100%;
+    padding-left:10px;
+}
+
+/*Fix font for Editor: detail page*/
+.Edit_TableHeader td pre
+{
+    font-family: arial;
+}
+
+
+.Edit_TableMenuType
+{
+    border:0px;
+    empty-cells:show;
+    white-space:nowrap;
+    table-layout:fixed;
+    overflow:hidden;
+    width: 100%;
+    padding-left:10px;
+}
+
+.Edit_TablePicture
+{
+    empty-cells:show;
+    white-space:nowrap;
+    table-layout:fixed;
+    overflow:hidden;
+}
+
+.Edit_TablePicture td
+{
+    padding-left:10px;
+    padding-bottom:2px;
+}
+
+.rtop
+{
+    display:block;
+    background: #FFF;
+}
+
+.rbottom
+{
+    display:block;
+    background: #FFF;
+}
+
+.rtop  {display: block; height: 1px; overflow: hidden; background: #E1DEE2}
+.rbottom {display: block; height: 1px; overflow: hidden; background: #E1DEE2}
+
+.r1{margin: 0 4px}
+.r2{margin: 0 3px}
+.r3{margin: 0 2px}
+.r4{margin: 0 1px}
+
+.divContainer
+{
+    width: 710px;
+    background: #E1DEE2;
+}
+
+.MenuStyleOn
+{
+    background:#E1DEE2 none repeat scroll 0%;
+    color:#000;
+    font-family:Arial;
+    font-size:12px;
+    font-weight:bold;
+    padding:1px 5px 1px 5px;
+}
+
+.MenuStyleOff
+{
+    background:#414042 none repeat scroll 0%;
+    color:#FFF;
+    cursor:pointer;
+    font-family:Arial;
+    font-size:12px;
+    font-weight:normal;
+    padding:1px 5px 1px 5px;
+}
+
+b.rndMenuStyle
+{
+    font-family:arial,sans-serif;
+    background:#FFFFFF none repeat scroll 0%;
+    display:block;
+    font-size:1px;
+}
+
+b.rndMenuStyle b
+{
+    display:block;
+    height:1px;
+    overflow:hidden;
+}
+
+b.rndMenuStyleOn1
+{
+    margin:0pt 2px;
+    display:block;
+    background:#E1DEE2 none repeat scroll 0%;
+}
+
+b.rndMenuStyleOn2
+{
+    margin:0pt 1px;
+    background:#E1DEE2 none repeat scroll 0%;
+    display:block;
+}
+
+b.rndMenuStyleOff1
+{
+    margin:0pt 2px;
+    display:block;
+    background:#414042 none repeat scroll 0%;
+}
+
+b.rndMenuStyleOff2
+{
+    margin:0pt 1px;
+    background:#414042 none repeat scroll 0%;
+    display:block;
+}
+
+.mouseOver
+{
+    background: #E1DEE2; /*#AED7FF*/
+    color: #414042;
+    cursor:pointer;
+}
+
+.mouseOut
+{
+    background: #FFFFFF;
+    color: #414042;
+    cursor:pointer;
+}
+
+
+.tblQuickFill
+{
+    empty-cells:show;
+    font-family:arial,sans-serif;
+    font-size: 12px;
+    border:0px;
+    table-layout:fixed;
+    overflow:hidden;
+    width: 100%;
+}
+
+.tblQuickFill td
+{
+    padding-left: 8px;
+    empty-cells:show;
+    vertical-align:top;
+}
+
+.Edit_rowQuoteLight
+{
+    background-color: #ff915b;
+}
+.Edit_rowQuote
+{
+    background-color: #FFFFFF;
+}
+
+.noteQuote
+{
+    vertical-align:top;
+    cursor:pointer;
+    height:20px;
+    background-color:pink;
+}
+
+.noteAttach
+{
+    vertical-align:top;
+    cursor:pointer;
+    height:20px;
+    background-color:#CEFFCE;
+}
+
+.noteBooking
+{
+    vertical-align:top;
+    cursor:pointer;
+    height:20px;
+    background-color:#FFF;
+}
+
+.noteAssessmentSheet
+{
+    vertical-align:top;
+    cursor:pointer;
+    height:20px;
+    background-color:pink;
+}
+
+.noteJobStatus
+{
+    vertical-align:top;
+    cursor:pointer;
+    height:20px;
+    background-color:#FFF;
+    /*font-weight:bold;*/
+}
+
+.noteNormal
+{
+    vertical-align:top;
+    cursor:pointer;
+    height:20px;
+}
+
+.hideNote  /*2012 08 03 hide note for CERNO*/
+{
+    vertical-align:top;
+    cursor:pointer;
+    height:20px;
+    background-color:#0072bb;
+    color:white;
+}
+.hideNote  a
+{
+    color:white;
+}
+
+/****************** Accessories link ************************************/
+.AccessoriesLink
+{
+    cursor:pointer; color:#000; text-decoration: underline;
+    height:20px; /*fix stange link on IE8 - note section Loan*/
+}
+
+/****************** Set text overlow: hidden for row header ***********************/
+.ttd
+{
+    empty-cells:show;
+    font-family:arial,sans-serif;
+    width:100%;
+    table-layout:fixed;
+    overflow:hidden;
+}
+
+.ttd td
+{
+    empty-cells:show;
+    white-space:nowrap;
+    table-layout:fixed;
+    overflow:hidden;
+    font-size:12px;
+}
+
+/****************** Set text area ***********************/
+.textarea
+{
+    font-family:Arial;
+    font-size:12px;
+    width: 99%;
+    height: 200px;
+}
+
+.textbox
+{
+    font-family: Arial;
+    font-size: 12px;
+    width: 99%;
+}
+
+/****************** Class using for OurRef *******************/
+.link_MouseOut
+{
+    cursor:pointer;
+}
+
+.link_MouseOver
+{
+    cursor:pointer;
+    text-decoration:underline;
+}
+
+/****************** Class using for User settings *******************/
+.FailedLoginRow
+{
+    background-color:#C6C6C6;
+}
+
+.SuccessdLoginRow
+{
+}
+/****************** Class using for User settings END****************/
+
+.divMaskDivAlpha
+{
+    filter: alpha(opacity=50); /* ie */
+    -moz-opacity: .5; /* mozilla */
+    background:#ccc;
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:500;
+}
+
+/* Use for link of Assessor or Authority at Index page */
+/*
+.Report_MReport
+{
+	font-size:11px;
+	font-weight:bold;
+}
+*/
+/*
+.ReportLink_MReport
+{
+	text-decoration:underline;
+	cursor:pointer;
+}
+*/
+
+.ReportLink
+{
+    font-weight:normal; color:#000;
+}
+
+a.ReportLink:link{color:#000;text-decoration:none}
+a.ReportLink:visited{color:#000;text-decoration:none}
+a.ReportLink:hover{color:#000;text-decoration:none}
+a.ReportLink:active{color:#000;text-decoration:none}
+
+.ReportLinkActive
+{
+    font-weight:bold; color:#000;
+}
+
+a.ReportLinkActive:link{color:#000;text-decoration:none}
+a.ReportLinkActive:visited{color:#000;text-decoration:none}
+a.ReportLinkActive:hover{color:#000;text-decoration:none}
+a.ReportLinkActive:active{color:#000;text-decoration:none}
+
+
+
+
+.Detail_PIC
+{/*
+	margin-left:2px;
+	margin-right:2px;	*/
+    width:169px;
+    height: 127px;
+    cursor: pointer;
+    border: solid 1px black;
+    /*margin-top:-27px;*/
+}
+
+.Detail_PIC_Red
+{/*
+	margin-left:2px;
+	margin-right:2px;	*/
+    width:168px;
+    height: 127px;
+    cursor: pointer;
+    border: solid 3px red;
+    /*margin-top:-27px;*/
+}
+
+.Detail_DOC
+{/*
+	margin-left:2px;
+	margin-right:2px;	*/
+    width:169px;
+    height: 254px;
+    cursor: pointer;
+    border: solid 1px black;
+    /*margin-top:-27px;*/
+
+}
+
+
+.Detail_DOC_Red
+{/*
+	margin-left:2px;
+	margin-right:2px;	*/
+    width:168px;
+    height: 254px;
+    cursor: pointer;
+    border: solid 3px red;
+    /*margin-top:-27px;*/
+}
+
+/*Truong Added for Pic on IE*/
+.Detail_Div_PIC_Total_IE
+{
+    margin-top:-28;
+    margin-left:147;
+    position:relative;
+}
+
+.Detail_Div_PIC_Total
+{
+    margin-top:-27;	/*IE must set to -30*/
+    margin-left:145;
+    position:relative;
+    filter: alpha(opacity=80); /* ie */
+    -moz-opacity: .8; /* mozilla */
+}
+
+.Detail_Table_PIC_Total
+{
+    width: 25px;
+    height:25px;
+    font-weight:bold;
+    font-size:13px;
+    vertical-align:middle;
+    text-align:center;
+    /*border: solid 1px Black;*/
+    background-color: White;
+
+
+}
+
+
+
+
+/*/////////////////////////////////////////////////////*/
+.ImgDeleteDocPic
+{
+    position:absolute;
+    margin-left:154px;
+    margin-top:5px;
+    -moz-opacity: .8;
+    filter: alpha(opacity=80);
+}
+/*////////////////////////////////////////////////////*/
+
+
+
+.Detail_Table_PIC_Total_Red
+{
+    width: 25px;
+    height:25px;
+    font-weight:bold;
+    font-size:10px;
+    vertical-align:middle;
+    text-align:center;
+    border: solid 1px Red;
+    background-color: White;
+}
+
+.Detail_Doc_All
+{
+    margin-left:2px;
+    margin-top:2px;
+    margin-bottom:2px;
+    border: solid 1px black;
+}
+
+.MainDiv
+{
+    clear:both;
+}
+
+
+
+/*##################################################################################################################
+	Main Page CSS
+	* Note : lots of CSS selectors are used in this div, if you cant find the css class assign to the html elements ,
+		try to look for them by CSS selectors
+####################################################################################################################*/
+
+/* Logo */
+.commonLogoPage
+{
+    position: absolute;
+    padding-left: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    cursor: pointer;
+    color: red;
+}
+
+
+/* Setting - Help - Sign out */
+.commonMenuRight
+{
+    cursor:pointer;
+    text-decoration:underline;
+}
+
+.TopLink
+{
+    color:#000;font-family:Arial;font-size:12px;
+}
+
+.TopLink a:link{cursor:pointer;color:#000;font-family:Arial;font-size:12px;}
+.TopLink a:visited{cursor:pointer;color:#000;font-family:Arial;font-size:12px;}
+.TopLink a:hover{cursor:pointer;color:#000;font-family:Arial;font-size:12px;}
+.TopLink a:active{cursor:pointer;color:#000;font-family:Arial;font-size:12px;}
+
+/* Setting - Help - Sign out End */
+
+
+
+/* Back , Previous, Next , Search button */
+b.ButtonTopActive, b.ButtonBottomActive
+{
+    display:block;
+    background: #FFF
+}
+
+b.ButtonTopActive b, b.ButtonBottomActive b
+{
+    display:block;
+    height: 1px;
+    overflow: hidden;
+    background: #414042;
+    font-size : 1px;
+}
+
+b.ButtonTopNormal, b.ButtonBottomNormal
+{
+    display:block;
+    background: #FFF
+}
+
+b.ButtonTopNormal b, b.ButtonBottomNormal b
+{
+    display:block;
+    height: 1px;
+    overflow: hidden;
+    background: #000000;
+    font-size : 1px;
+}
+
+.buttonActive
+{
+    cursor:pointer;
+    background: #414042 none no-repeat scroll 0%;
+    font-weight:bold;
+    color: #FFFFFF;
+
+    padding:0px 12px 0px;
+    cursor:pointer;
+    font-size:11px;
+}
+
+.buttonNormal
+{
+    cursor:pointer;
+    background: #000000  none no-repeat scroll 0%;
+    color:#FFFFFF;
+
+    padding:0px 12px 0px;
+    cursor:pointer;
+    font-size:12px;
+    font-weight:bold;
+    font-family:Arial;
+}
+
+/*2016 03 31 button disable [START]*/
+b.ButtonTopDisable, b.ButtonBottomDisable
+{
+    display:block;
+    background: #FFF
+}
+
+b.ButtonTopDisable b, b.ButtonBottomDisable b
+{
+    display:block;
+    height: 1px;
+    overflow: hidden;
+    background: #E1DEE2;
+    font-size : 1px;
+}
+
+.buttonDisable
+{
+    cursor:pointer;
+    background: #E1DEE2  none no-repeat scroll 0%; 	/*2023 11 07*/
+    color:gray;
+
+    height:21px; /*2023 11 07*/
+    padding:5px 12px 0px;  /*2023 11 07*/
+
+    cursor:pointer;
+    font-size:12px;
+    font-weight:bold;
+    font-family:Arial;
+}
+.mainLinkDisable
+{
+    text-decoration:none;
+}
+
+.mainLinkDisable a:link{color:#E1DEE2;text-decoration:none}
+.mainLinkDisable a:visited{color:#E1DEE2;text-decoration:none}
+.mainLinkDisable a:hover{color:#E1DEE2;text-decoration:none}
+.mainLinkDisable a:active{color:#E1DEE2;text-decoration:none}
+/*2016 03 31 button disable [END]*/
+/* Back , Previous, Next , Search button  End */
+
+
+/* All - Start - New - Inspection - In progress - Closed */
+.TabNormal
+{
+    cursor:pointer;
+    background: #E1DEE2 none no-repeat scroll 0%;
+    padding:  4px 5px 3px;
+    color:#000000;
+}
+.TabActive
+{
+    cursor:pointer;
+    /*background: #F26722 none no-repeat scroll 0%;*/
+    background: #414042 none no-repeat scroll 0%;
+    padding:4px 5px 3px;
+    font-weight:bold;
+    color: #FFFFFF;
+}
+
+b.TabRTop, b.TabRBottom
+{
+    display:block;background: #FFF
+}
+
+b.TabRTop b, b.TabRBottom b
+{
+    display:block;
+    height: 1px;
+    overflow: hidden;
+    background: #E1DEE2;
+    font-size : 1px;
+}
+
+b.TabR1
+{
+    margin: 0 4px
+}
+
+b.TabR2
+{
+    margin: 0 2px
+}
+b.TabR3
+{
+    margin: 0 1px
+}
+
+b.TabRTopActive, b.TabRBottomActive
+{
+    display:block;
+    background: #FFF;
+}
+b.TabRTopActive b, b.TabRBottomActive b
+{
+    display:block;
+    height: 1px;
+    overflow: hidden;
+    background: #414042;/*#F26722;*/
+    font-size : 1px;
+}
+
+/* All - Start - New - Inspection - In progress - Closed   End*/
+
+/* Image Follow up Main page*/
+.imgFollowUpMain
+{
+    cursor:pointer;
+    height:12px;
+    width:12px;
+}
+
+
+.MainDiv
+{
+    clear:both;
+}
+
+.MainDiv_JobTable
+{
+    width:100%;
+    empty-cells:show;
+    table-layout:fixed;
+    overflow:hidden;
+}
+
+.MainDiv_JobTable td
+{
+    padding:2 0;
+    border-bottom:1px solid #E1DEE2;
+    empty-cells:show;
+    white-space:nowrap;
+    overflow:hidden;
+    vertical-align: middle;
+}
+
+.MainDiv_UserTable
+{
+    width:100%;
+    empty-cells:show;
+    table-layout:fixed;
+    overflow:hidden;
+}
+
+.MainDiv_UserTable td
+{
+    padding:2 0;
+    empty-cells:show;
+    white-space:nowrap;
+    overflow:hidden;
+}
+
+/* Background color of vertical - horizontal line (in common border) End*/
+tr.MainDiv_JobTableTitleRow td
+{
+    /*border:solid 1px #F26722; */
+    /*border:solid 1px #E1DEE2;*/
+}
+
+.MainDiv_JobTable td.thc
+{
+    /*border:solid 1px #F26722;*/
+    border:solid 0px #E1DEE2;
+}
+
+/*background color of widthwise line*/
+.MainDiv_JobTableTitleRow
+{
+    font-weight:bold;
+    height:20px;
+    vertical-align:middle;
+    /*background:#F26722;*/
+    background:#E1DEE2;
+    /*color: white;*/
+    color: #000;
+    cursor:pointer;
+}
+
+.MainDiv_JobTableFooterRow
+{
+    height:20px;
+    /*background:#F26722;*/
+    background:#E1DEE2;
+    /*color: white;*/
+    color:#000;
+}
+/* Background color of vertical - horizontal line (in common border) End*/
+
+
+/*CSS for body of Main page */
+.MainDiv_JobTableCell
+{
+    vertical-align : top;
+    padding-top:2px;
+    padding-bottom:2px;
+}
+
+/*-----------------------------------------*/
+/*-----------------------------------------*/
+.mainDiv_ItemRow
+{
+    cursor:pointer;
+    vertical-align:top;
+    height:20px;
+}
+.fastTrack
+{
+    cursor:pointer;
+    vertical-align:top;
+    height:20px;
+    background-color: #d1eaff;
+}
+.catJob
+{
+    cursor:pointer;
+    vertical-align:top;
+    height:20px;
+    background-color: #fcdeff;
+}
+
+.mainDiv_ItemRowThirdParty
+{
+    cursor:pointer;
+    vertical-align:top;
+    height:20px;
+    background-color: #E1FFE1; /*#F4FFF4*/
+}
+
+.mainDiv_ItemRowTotalLoss
+{
+    cursor:pointer;
+    vertical-align:top;
+    height:20px;
+    background-color: #FFE8E8; /* #FFF2F2*/
+}
+
+/*------------------------*/
+.mainDiv_ItemRow_1stPhto
+{
+    cursor:pointer;
+    vertical-align:top;
+    height:70px;
+}
+
+.mainDiv_ItemRowThirdParty_1stPhto
+{
+    cursor:pointer;
+    vertical-align:top;
+    height:70px;
+    background-color: #E1FFE1; /*#F4FFF4*/
+}
+
+.mainDiv_ItemRowTotalLoss_1stPhto
+{
+    cursor:pointer;
+    vertical-align:top;
+    height:70px;
+    background-color: #FFE8E8; /* #FFF2F2*/
+}
+/*-----------------------------------------*/
+/*-----------------------------------------*/
+.MainDiv_Border
+{
+    border-bottom:solid 1px #F26722;
+}
+
+.MainDiv_JobIcon
+{
+    padding-left:5px;
+    width:10px;
+}
+
+.MainDiv_OurRef
+{
+    width:50px;
+}
+
+.MainDiv_Date
+{
+    width:75px;
+}
+
+.MainDiv_Insured
+{
+    width:150px;
+}
+
+.MainDiv_Address
+{
+    width:150px;
+}
+
+.MainDiv_Phone
+{
+    width:100px;
+}
+
+.MainDiv_Claim
+{
+    width:100px;
+}
+.MainDiv_Insurance
+{
+    width:200px;
+}
+
+.MainDiv_JobDetailDiv
+{
+    position:absolute;
+    top:100px;
+    left:100px;
+    width:250px;
+    background-color:#AED7FF;
+    border:solid 1px black;
+    padding:5 5 5 5;
+
+}
+
+/*CSS for body of Main page End */
+
+
+/*First Report for View page Start*/
+/*
+	.FirstRptHeader
+    {
+        font-family: Arial;
+        font-size: 15px;
+    }
+    .FirstRptTitle
+    {
+		font-size:20px;
+		text-align:center;
+		font-weight:bold;
+    }
+
+    .FirstRptTable
+    {
+        font-family: Arial;
+        font-size: 12px;
+        text-align:center;
+        width:650px;
+    }
+
+
+    .FirstRptTable td
+    {
+        text-align:left;
+    }
+
+    .FirstRptText{
+        font-weight:bold;
+    }
+
+	.tbl_Picture
+    {
+        border-collapse:collapse;
+        table-layout:fixed;
+        overflow:hidden;
+        border:0px;
+        width:650px;
+    }
+    .tbl_Picture td
+    {
+        font-family:Arial, Helvetica, sans-serif;
+        font-size:14px;
+    }
+    .tbl_PictureBorder
+    {
+        cursor:pointer;
+        border-style:solid;
+    	border-width:1px;
+    	border-color:#000000;
+    }
+
+    .tbl_PictureComment
+    {
+        text-align:left;
+        font-weight:bold;
+    }
+    .tbl_PictureOurRef
+    {
+        font-size:14px;
+        color:#000000;
+    }
+*/
+/*First Report for View page End*/
+
+
+/*INvoice page */
+.tblInvoice
+{
+    background-color:#E1DEE2;
+    width:100%;
+    empty-cells:show;
+}
+
+.tblInvoiceTick
+{
+    /*
+    border:1px;
+    border-color:#999999;
+    border-collapse:collapse;
+    border-style:solid;
+    */
+    width:100%;
+
+}
+.Invoice_Header
+{
+    font-family:arial;
+    color:#FFFFFF;
+    vertical-align:middle;
+    font-weight:bold;
+    background-color:#414042;
+}
+
+.Invoice_Text
+{
+    width:100%;
+    empty-cells:show;
+    white-space:nowrap;
+    overflow:hidden;
+    table-layout:fixed;
+    background-color:#FFFFFF;
+}
+
+.InvoiceSelected_Text
+{
+    width:100%;
+    empty-cells:show;
+    white-space:nowrap;
+    overflow:hidden;
+    table-layout:fixed;
+    background-color:#F26722;
+}
+
+.Invoice_Text a:link{color:#414042; text-decoration:underline}
+.Invoice_Text a:visited{color:#414042; text-decoration:underline}
+.Invoice_Text a:hover{color:#414042; text-decoration:underline}
+.Invoice_Text a:active{color:#414042; text-decoration:underline}
+/* End invoice page */
+
+
+/*View page*/
+.EmailDetailDiv
+{
+    width:400px;
+    position:absolute;
+    border:solid 1px #bfbfbf;
+    background-color:#f3f2f2;
+    padding:3px 3px 3px 3px;
+}
+
+.ViewInvoiceItem
+{
+    padding:20px 1px;
+    width:168px;
+    border:solid 1px black;
+    vertical-align:text-bottom;
+    text-align:center;
+    font-size:28px;
+}
+.ViewInvoiceItemSelected
+{
+    padding:20px 1px;
+    width:168px;
+    border:solid 3px red;
+    vertical-align:text-bottom;
+    text-align:center;
+    font-size:28px;
+}
+.ViewInvoiceItem_201
+{
+    padding:20px 1px;
+    width:168px;
+    border:solid 1px black;
+    vertical-align:text-bottom;
+    text-align:center;
+    font-size:20px;
+}
+.ViewInvoiceItem_201Selected
+{
+    padding:20px 1px;
+    width:168px;
+    border:solid 3px red;
+    vertical-align:text-bottom;
+    text-align:center;
+    font-size:20px;
+}
+
+.ViewQuoteItem
+{
+    padding:20px 1px;
+    width:168px;
+    border:solid 1px black;
+    vertical-align:text-bottom;
+    text-align:center;
+    font-size:20px;
+}
+.ViewQuoteItemSelected
+{
+    padding:20px 1px;
+    width:168px;
+    border:solid 3px red;
+    vertical-align:text-bottom;
+    text-align:center;
+    font-size:20px;
+}
+
+/*TruongDV 2010 05 25 Added Start*/
+.ViewAttachItem{
+    padding:20px 1px;
+    width:168px;
+    border:solid 1px black;
+    vertical-align:text-bottom;
+    text-align:center;
+    font-size:12px;
+    cursor:pointer;
+    overflow:hidden;
+    height: 50px;
+}
+.ViewAttachItemSelected{
+    padding:20px 1px;
+    width:168px;
+    border:solid 3px red;
+    vertical-align:text-bottom;
+    text-align:center;
+    font-size:12px;
+    cursor:pointer;
+    height: 50px;
+    overflow:hidden
+}
+/*TruongDV 2010 05 25 Added END*/
+
+
+
+.ViewNoteItem
+{
+    padding:15px 1px;
+    width:168px;
+    border:solid 1px black;
+    vertical-align:text-bottom;
+    text-align:center;
+    font-size:13px;
+    cursor:pointer;
+    height: 50px;
+    overflow:hidden;
+}
+
+
+.ViewNoteItemSelected
+{
+    padding:15px 1px;
+    width:168px;
+    border:solid 3px red;
+    vertical-align:text-bottom;
+    text-align:center;
+    font-size:13px;
+    cursor:pointer;
+    height: 50px;
+    overflow:hidden;
+}
+
+/*insert for [request for quote] - Start*/
+.ViewQuoteRequestItem
+{
+    padding:20px 1px;
+    width:168px;
+    border:solid 1px black;
+    vertical-align:text-bottom;
+    text-align:center;
+    font-size:20px;
+}
+.ViewQuoteRequestItemSelected
+{
+    padding:20px 1px;
+    width:168px;
+    border:solid 3px red;
+    vertical-align:text-bottom;
+    text-align:center;
+    font-size:20px;
+}
+/*insert for [request for quote] - End*/
+
+.ViewPhotoImgTitle
+{
+    font-family:Arial;
+    font-size:48px;
+    font-weight:bold;
+    text-align:center;
+    color:red;
+}
+
+
+.View_TablePIC
+{
+    empty-cells:show;
+    font-family:arial,sans-serif;
+    width: 127px;
+    text-align:right
+}
+.View_PIC
+{
+    margin-left:2px;
+    width:168px;
+    height: 127px;
+    cursor: pointer;
+    border: solid 1px black;
+}
+
+
+.View_PIC_Red
+{
+    margin-left:2px;
+    width:168px;
+    height: 127px;
+    cursor: pointer;
+    border: solid 1px red;
+}
+
+
+.View_Div_PIC_Total
+{
+    margin-top:-26;
+    margin-left:150;
+    position:relative;
+}
+
+.View_Div_PIC_Total_Red
+{
+    margin-top:-26;
+    margin-left:152;
+    position:relative;
+}
+
+.View_Table_PIC_Total
+{
+    width: 20px;
+    height:20px;
+    font-weight:bold;
+    font-size:11px;
+    vertical-align:middle;
+    border: solid 1px #003366;
+    background-color:white;
+}
+.View_Table_PIC_Total_Red
+{
+    width: 20px;
+    height:20px;
+    font-weight:bold;
+    font-size:11px;
+    vertical-align:middle;
+    border: solid 1px red;
+}
+
+.ViewTDContainPic
+{
+    text-align:right;
+    padding-right: 2px;
+}
+
+.SpellChecker
+{
+    cursor:pointer;
+}
+
+.Summary_LineBottomNote
+{
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-color:#999999;
+}
+
+/*
+.Detail_DivNote
+{
+	table-layout:fixed;
+	border-collapse: collapse;
+}
+
+.Detail_DivNote td
+{
+	font-family:arial,sans-serif;
+	border-bottom:1px solid #999999;
+	empty-cells:show;
+	table-layout:fixed;
+	overflow:hidden;
+	cursor:pointer;
+}
+
+.NoteDiv
+{
+	margin-top:2px;
+	margin-right:3px;
+	width: 169px;
+	height: 60px;
+	background-image:url('../images/Icon_File.jpg');
+	cursor: pointer;
+}
+
+.NoteDiv_Light
+{
+	margin-top:2px;
+	margin-right:3px;
+	width: 169px;
+	height: 60px;
+	background-image:url('../images/Icon_File_Red.jpg');
+	cursor: pointer;
+}
+
+.NoteDetailDiv
+{
+	border:solid 1px;
+	background-color:#FFFFFF;
+	width:400px;
+	font-family: Arial;
+	font-size:12px;
+	position:absolute;
+	visibility:hidden;
+}
+*/
+
+/*Invoice Sheet CSS*/
+.tblInvoiceSheetHeader td
+{
+    font-size: 14px;
+    font-weight:bold;
+}
+
+.tblInvoiceSheetContent
+{
+    width:100%;
+}
+
+.tblInvoiceSheetContentTitle td
+{
+    font-size: 14px;
+    font-weight:bold;
+    color:#FFFFFF;
+    height:30px;
+    background-color: #003366;
+    cursor:pointer;
+}
+
+.tblInvoiceSheetContentText td
+{
+    font-size: 12px;
+    font-weight:normal;
+    height:25px;
+}
+
+.tblSettingContentText td
+{
+    font-size: 12px;
+    font-weight:normal;
+    height:25px;
+    border-right:solid 1px #003366;
+    border-top:solid 1px #003366;
+}
+
+/*Invoice Sheet CSS End*/
+
+/****************** Create Button Black by div *******************/
+.divbtn
+{
+    padding:0px 2px 0px;
+}
+b.tbtn
+{
+    font-family:arial,sans-serif;
+    background:#FFFFFF none repeat scroll 0%;
+    display:block;
+    font-size:1px;
+}
+b.tbtn b
+{
+    display:block;
+    height:1px;
+    overflow:hidden;
+}
+b.tbtnBar
+{
+    font-family:arial,sans-serif;
+    background:#F26722 none repeat scroll 0%;
+    display:block;
+    font-size:1px;
+}
+b.tbtnBar b
+{
+    display:block;
+    height:1px;
+    overflow:hidden;
+}
+b.btn1
+{
+    margin:0pt 2px;
+    display:block;
+    background:#414042 none repeat scroll 0%;
+}
+b.btn2
+{
+    margin:0pt 1px;
+    background:#414042 none repeat scroll 0%;
+    display:block;
+}
+.btn
+{
+    background:#414042 none repeat scroll 0%;
+    color:#FFFFFF;
+    cursor:pointer;
+    font-family:Arial;
+    font-size:11px;
+    font-weight:bold;
+    text-align:center;
+}
+
+
+/****************** Create Button Orange by div *******************/
+
+/***QuickFill***/
+.divQuickFillEdit
+{
+    width: 1000px;
+    background: #C8C2C9;  /*#E1DEE2; - TruongDV 2009 09 08*/ /*ffaf83*/
+    position:absolute;
+}
+
+.rtopQuickFill
+{
+    display:block;
+    background:#FFF;
+}
+
+.rbottomQuickFill
+{
+    display:block;
+    background: #FFF;
+}
+
+.rtopQuickFill	 * {display: block; height: 1px; overflow: hidden; background: #C8C2C9}  /*#E1DEE2; - TruongDV 2009 09 08*/ /*ffaf83*/
+.rbottomQuickFill * {display: block; height: 1px; overflow: hidden; background: #C8C2C9}  /*#E1DEE2; - TruongDV 2009 09 08*/ /*ffaf83*/
+
+b.tbtnQuickFill
+{
+    font-family:arial,sans-serif;
+    background:#ffaf83 none repeat scroll 0%;
+    display:block;
+    font-size:1px;
+}
+b.tbtnQuickFill  b
+{
+    display:block;
+    height:1px;
+    overflow:hidden;
+}
+/***End QuickFill***/
+
+.DetailLine
+{
+    border-left:solid 1px #414042;
+}
+
+
+
+/*set link for main page*/
+.mainLink
+{
+    text-decoration:none;
+}
+
+.mainLink a:link{color:#414042;text-decoration:none}
+.mainLink a:visited{color:#414042;text-decoration:none}
+.mainLink a:hover{color:#414042;text-decoration:none}
+.mainLink a:active{color:#414042;text-decoration:none}
+
+/*set link for detail link*/
+.detailLink
+{
+    text-decoration:none;
+}
+
+.detailLink a:link{color:#414042;text-decoration:none; color:White}
+.detailLink a:visited{color:#414042;text-decoration:none; color:White}
+.detailLink a:hover{color:#414042;text-decoration:none; color:White}
+.detailLink a:active{color:#414042;text-decoration:none; color:White}
+
+/*set link for invoice link*/
+.invoiceLink
+{
+    text-decoration:none;
+}
+
+.invoiceLink a:link{color:#414042;text-decoration:none}
+.invoiceLink a:visited{color:#414042;text-decoration:none}
+.invoiceLink a:hover{color:#414042;text-decoration:none}
+.invoiceLink a:active{color:#414042;text-decoration:none}
+
+/*set link for view link*/
+.viewLink
+{
+    text-decoration:none;
+}
+
+.viewLink a:link{color:#414042;text-decoration:none}
+.viewLink a:visited{color:#414042;text-decoration:none}
+.viewLink a:hover{color:#414042;text-decoration:none}
+.viewLink a:active{color:#414042;text-decoration:none}
+
+
+
+/*use for div quickFill & mail merge*/
+.divQuickFill
+{
+    width: 710px;
+    background: #C8C2C9;  /*#E1DEE2; - TruongDV 2009 09 08*/  /*AED7FF*/
+}
+b.QuickFillRTop, b.QuickFillRBottom
+{
+    display:block;background: #FFF
+}
+
+b.QuickFillRTop b, b.QuickFillRBottom b
+{
+    display:block;
+    height: 1px;
+    overflow: hidden;
+    background: #C8C2C9;  /*#E1DEE2; - TruongDV 2009 09 08*/ /*AED7FF*/
+    font-size : 1px;
+}
+
+
+
+
+
+
+
+/*defaul is css for PIC*/
+.DrapDropDiv
+{
+    position:absolute;
+    border:solid 1px black;
+    width:168px;
+    height: 127px;
+    z-index:255;
+}
+
+.DrapDropDivImg
+{
+    border-color:white;
+    width:168px;
+    height: 127px;
+
+}
+
+/*css for DOC*/
+.DrapDropDiv_DOC
+{
+    position:absolute;
+    border:solid 1px black;
+    width:168px;
+    height: 254px;
+    z-index:255;
+}
+
+.DrapDropDivImg_DOC
+{
+    border-color:white;
+    width:168px;
+    height: 254px;
+
+}
+
+.txOurRefDetail{
+    border: solid 1px #E1DEE2;
+    background-color:#E1DEE2;
+}
+
+.txClaimNoDetail{
+    border: solid 1px #E1DEE2;
+    background-color:#E1DEE2;
+}
+
+
+
+.detailQuoteCSS
+{
+    background-color:#414042;
+    color:White;
+    font-weight:bold;
+    text-align:center;
+    vertical-align:middle;
+}
+.detailRowQuote
+{
+    background-color:#FFFFFF;
+    font-size:12px;
+    cursor:pointer;
+}
+
+.detailRowQuoteOver
+{
+    background-color:#E1DEE2;
+    font-size:12px;
+    cursor:pointer;
+}
+
+
+/********************************
+		report Document
+*********************************/
+.reportDocumentImg
+{
+    border-color:black;
+    width:720px;	/*Ch20090929 change width and height*/
+    height:1050px;
+    border:none;
+}
+/*
+	width:750px;
+	height:1038px;
+*/
+
+
+
+
+
+/*SMS Fegure css START*/
+.smsDiv
+{
+    width:450px; /*400 for sms textbox is smaller.*/
+    border:solid 1px #bfbfbf;
+    background-color:#f3f2f2;
+    z-index : 99;
+    position:absolute;
+}
+
+td.tblQuoteEmailControlCell
+{
+    text-align:center;
+    font-size:18px;
+    border-right:solid 1px #BBBBBB;
+    cursor:pointer;
+    color:#FFF;
+}
+
+td.tblQuoteEmailControlCellNoBorder
+{
+    text-align:center;
+    font-size:18px;
+    cursor:pointer;
+}
+/*SMS Fegure css END*/
+
+/*AnLT 2011 07 07: add follow up over due*/
+
+.mainDiv_FollowUpOverDue
+{
+    background-color:#ff0000;
+    color:#ffffff;
+    font-weight:bold;
+    cursor:pointer;
+}
+
+
+
+.detail_Repairable_TotalLoss
+{
+    font-family:Arial;
+    font-size:16px;
+    font-weight:bold
+}
+
+.txtDateKPI
+{
+    font-family:Arial;
+    font-size:11px;
+    /*font-weight:bold;*/
+}
+.normalKPI{
+    color:black;
+}
+.failKPI{
+    background-color:#FFE8E8; /*red*/
+    color:black;
+}
+.trueKPI{
+    background-color:#E1FFE1; /*green*/
+    color:black;
+}
+
+/*2012 09 21 for booking page - Real Insurance 3569*/
+.divJobDetail
+{
+    position:absolute;
+    width:650px;
+}
+b.TabRTopActiveGray, b.TabRBottomActiveGray
+{
+    display:block;
+    background: #E1DEE2;
+}
+
+b.TabRTopActive b, b.TabRBottomActive b, b.TabRTopActiveGray b, b.TabRBottomActiveGray b
+{
+    display:block;
+    height: 1px;
+    overflow: hidden;
+    background: #414042;
+    font-size : 1px;
+}
+.ButtonActive
+{
+    cursor:pointer;
+    background: #414042 none no-repeat scroll 0%;
+    padding:0px 7px 0px 7px;
+    font-weight:bold;
+    color: #FFFFFF;
+    text-align:center;
+}
+.TabNormalBookingJobDetail
+{
+    cursor:pointer;
+    background: #E1DEE2 none no-repeat scroll 0%;
+    padding:3px 7px 0px 7px;
+    color:#000000;
+    text-align:center;
+    font-size:12px;
+}
+.smallFontDivJobDetail td
+{
+    font-family:Arial;
+    font-size:12px;
+}
+.divJobConfirm
+{
+    position:absolute;
+    width:440px;
+    z-index:256;
+}
+.maskDivAlpha
+{
+    filter: alpha(opacity=40); /* ie */
+    -moz-opacity: .40; /* mozilla */
+    background:#ccc;
+    position:absolute;
+    top:0;
+    left:0;
+    border:solid 1px black;
+
+}
+/*2012 12 27 - css for 41 textbox*/
+.wovrTL
+{
+    width:30px;
+    font-family:Arial; font-size:12px;
+    text-align:center;
+}
+.wovrTL_TXT
+{
+    width:28px;
+    font-family:Arial; font-size:12px;
+    text-align:center;
+}
+.mainDiv_ItemRowJobHasInv  /*2014 07 07 if job on Complete tab got invoice (aiInvoice) then show other background*/
+{
+    cursor:pointer;
+    vertical-align:top;
+    height:20px;
+    /*background-color:teal;*/
+    background-color:yellow;
+}
+
+
+/*2012 02 16*/
+#GB_window {   top: 10px;   left: 0px;   position: absolute;   background: #fff;   border: 5px solid #aaa;   overflow: auto;   width: 450px;   height: 128px;   z-index: 150; }
+#GB_caption {   font: 12px bold helvetica, verdana, sans-serif;   color: #fff;   background: #888;   padding: 2px 0 2px 5px;   margin: 0;   text-align: left; }
+#GB_window img {   position: absolute;   top: 2px;   right: 5px;   cursor: pointer;   cursor: hand; }
+
+/*2013 03 12 for confirm box on detail page.*/
+#GB_windowDetail {   top: 10px;   left: 0px;   position: absolute;   background: #fff;   border: 5px solid #aaa;   overflow: auto;   width: 350px;   height: 120px;   z-index: 150; }
+#GB_captionDetail {   font: 12px bold helvetica, verdana, sans-serif;   color: #fff;   background: #888;   padding: 2px 0 2px 5px;   margin: 0;   text-align: left; }
+#GB_windowDetail img {   position: absolute;   top: 2px;   right: 5px;   cursor: pointer;   cursor: hand; }
+
+
+/*2017 12 27*/
+.bigButton{
+    height:18px;
+    padding-top:3px;
+    /*font-size:12px;*/
+}
+
+
+/*////////////////////////Dropdown menu 2018 01 09////////////////////////////*/
+.dropdown-menu ul li {
+    list-style:none;
+
+}
+.dropdown-menu ul li a:hover {
+    color:white;
+    background-color:#444444;
+}
+.dropdown-menu ul li a {
+    text-decoration:none;
+    color:black;
+    display:block;
+}
+.dropdown-menu ul {
+
+    text-align:left;
+}
+
+
+.dropDown
+{
+    color:#000;font-family:Arial;font-size:15px;
+}
+
+.dropDown a:link{text-decoration: none; cursor:pointer;color:#000;font-family:Arial;font-size:15px;}
+.dropDown a:visited{text-decoration: none; cursor:pointer;color:#000;font-family:Arial;font-size:15px;}
+.dropDown a:hover{text-decoration: underline; cursor:pointer;color:#000;font-family:Arial;font-size:15px;}
+.dropDown a:active{text-decoration: none; cursor:pointer;color:#000;font-family:Arial;font-size:15px;}
+/*////////////////////////Dropdown menu 2018 01 09////////////////////////////*/
+
+
+.divRepairerList{
+    width:380px;
+    height:360px;
+}
+
+.txtFigures {
+    /*font-size: 13px;*/
+    width: 75px;
+}
