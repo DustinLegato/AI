@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Claims Portal project</title>
+    <title>Job</title>
     <link rel="stylesheet" href="/public/css/stype.css">
     <script src="/public/js/htmx.min.js"></script>
 </head>
