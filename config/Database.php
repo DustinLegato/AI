@@ -9,17 +9,7 @@ class Database {
     private $pdo;
 
     private function __construct() {
-        // Manual .env parsing
-        $env = [];
-        $envFile = __DIR__ . '/../.env';
-        if (file_exists($envFile)) {
-            $lines = file($envFile, FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
-            foreach ($lines as $line) {
-                if (strpos(trim($line), '#') === 0) continue;
-                list($name, $value) = explode('=', $line, 2);
-                $env[trim($name)] = trim($value);
-            }
-        }
+        $env = $this->getEnv();
 
         if ($env['DB_SERVER'] === 'mssql') {
             $serverName = $env['DB_HOST'] . ',' . $env['DB_PORT'];
@@ -30,6 +20,7 @@ class Database {
             ];
             try {
                 $conn = sqlsrv_connect($serverName, $connectionOptions);
+
                 if ($conn === false) {
                     die(print_r(sqlsrv_errors(), true));
                 }
@@ -49,5 +40,26 @@ class Database {
 
     public function getConnection() {
         return $this->pdo;
+    }
+
+    /**
+     * @return array
+     */
+    private function getEnv()
+    {
+        $env =[];
+        $envFile = __DIR__ . '/../.env';
+
+        if (file_exists($envFile)) {
+            $lines = file($envFile, FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
+
+            foreach ($lines as $line) {
+                if (strpos(trim($line), '#') === 0) continue;
+                list($name, $value) = explode('=', $line, 2);
+                $env[trim($name)] = trim($value);
+            }
+        }
+
+        return $env;
     }
 }
